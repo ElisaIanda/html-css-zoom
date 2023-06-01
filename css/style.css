@@ -84,10 +84,64 @@ main{
     padding: 0.2rem;
 }
 
+/* footer */
 
-
-footer{
-    border: 1px dashed black;
-    height: 100px;
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    color: white;
 }
 
+.footer-left-button, 
+.footer-central-button, 
+.footer-right-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.left-button{
+    display: flex;
+}
+
+.chevron-up{
+    font-size: 0.5rem;
+    padding-right: 0.9rem;
+}
+
+.btn-icon{
+    padding-right: 1rem;
+}
+
+footer .btn-icon i{
+    font-size: 1.3rem;
+}
+
+.footer-right-button{
+    background-color: #4a4a4a;
+    padding: 20px;
+}
+
+.red{
+    color: #f4061e;
+}
+
+.green{
+    color: #4bc800;
+}
+
+.green:hover{
+    color: #f4061e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: grey;
+}
